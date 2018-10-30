@@ -4,120 +4,268 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head><link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
-        <title>Szladics Peter CV</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link  rel="stylesheet" href="css/pc.css">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="section1">Tanulmányok</a>
-                    <a class="navbar-brand" href="section2">Magamról</a>
-                    <a class="navbar-brand" href="section3">Kapcsolat</a>
-                          
-                    </div>
-                
-            </nav>
-            <div class="header-container">
-                    <h1>Szladics Péter</h1>
-                    <img src="img/profilkep.jpg" alt="profilkép">
-                    <h4>Testnevelő-gyógytestnevelő</h4>
-                    <h4>Junior java programozó</h4>
-                    <h4>Junior frontend fejlesztő</h4>
-            </div>
-            
-            
-     
+<!DOCTYPE html>
+<html lang="hu">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Szladics Péter CV</title>
+    
+     <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Complete css -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Complete javascript -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Complete javacript bundle -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+   
+    <!-- index.CSS --> 
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <!-- google font family --> 
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <!-- icon -->
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    
+    <!-- svg fontawesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.4.2/js/all.js" integrity="sha384-wp96dIgDl5BLlOXb4VMinXPNiB32VYBSoXOoiARzSTXY+tsK8yDTYfvdTyqzdGGN" crossorigin="anonymous"></script>
+    
+    
+    <!--index.js -->
+   <script src="js/index.js"></script>
+    </head> 
+   
 
-           <!-- <div class="header-container">
-                <div id="header-wrap"> 
-                    <h1>Szladics Péter</h1>
-                    
-                    <nav id="navbar" class="navbar navbar-light bg-light">   
-                        <div class="container-fluid"> 
-                            <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>                        
+<body style="background-color:  #222930"> 
+    <!-- data-spy="scroll" data-target=".navbarscroll" data-offset="50" --> 
+    
+    <nav id="navbarscroll" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyrolam">Rólam</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspytanulmanyok">Tanulmányok</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyszakmaikeszsegeim">Szakmai készségeim</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyelerhetosegem">Elérhetőség</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  
+
+    
+   <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <i class="fas fa-bars"></i>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-                      </div> <!--<div class="profilkep"><img src="img/profilkep.jpg" alt="profilkep"></div>
-                      <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav">
-                                <li><a href="section1">Tanulmányok</a></li>
-                                <li><a href="section2">Magamról</a></li>
-                                <li><a href="section3">Kapcsolat</a></li>
-                            </ul>  
-                          </div>
-                        </div>
-                    </nav>
-                    
-                </div>
-            </div>-->
-        </header>       
-        <main class="main">
-            <section id="section1" class="container-fluid">
-            <div class="main-container">
-                <div class="box">
-                    <h2>1. doboz</h2>
-                </div>
-                
-                <div class="box">
-                    <h2>2. doboz</h2>
-                    
-                </div>
-                <div class="box"><h2>3. doboz</h2></div>
-            </div>
-            </section>
-           <section id="section1" class="container-fluid">
-            <div class="main-container">
-                <div class="box">
-                    <h2>1. doboz</h2>
-                </div>
-                
-                <div class="box">
-                    <h2>2. doboz</h2>
-                    
-                </div>
-                <div class="box"><h2>3. doboz</h2></div>
-            </div>
-            </section>
-            <section id="section1" class="container-fluid">
-            <div class="main-container">
-                <div class="box">
-                    <h2>1. doboz</h2>
-                </div>
-                
-                <div class="box">
-                    <h2>2. doboz</h2>
-                    
-                </div>
-                <div class="box"><h2>3. doboz</h2></div>
-            </div>
-            </section>
-                    
-       </main>
-        <footer class="footer-container"> 
-            <nav>
-            <ul>
-                <li><a href="" target="_blank">Facebook</a></li>
-                <li><a href="" target="_blank">Linkedin</a></li>
-                <li><a href="" target="_blank">Instagram</a></li>
+      <a class="navbar-brand" href="#">Szladics Péter</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
             </ul>
-            </nav>
-        </footer> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    -->
+    
+    
+    
+ <!--  <nav class="navbarscroll navbar-expand fixed-top navbar-default navbar-dark bg-dark">
+    <ul class="navbar-nav nav-right">
+      <li class="nav-item">
+        <a class="nav-link navbar-brand" href="#">Rólam</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-brand" href="#">Tanulmányok</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-brand" href="#">Szakmai készségek</a>
+      </li>
+    </ul>  
+    </nav> -->
+    
+    <!-- Header -->
+        <div class="container-fluid bg row header d-flex align-items-center">
+          <div class="col-12">  
+        <h1 id="nev">Szladics Péter</h1>
+        <h4 class="job">Junior java programozó</h4>
+        <h4 class="job">Junior frontend fejlesztő</h4>
+        <h4 class="job">Testnevelő-gyógytestnevelő</h4> 
+         <ul class="social-links list-unstyled list-inline text-center">
+               <li class="list-inline-item"><a href="https://www.facebook.com/peter.szladics" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+               <li class="list-inline-item"><a href="https://www.linkedin.com/in/p%C3%A9ter-szladics-238933164/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+               <li class="list-inline-item"><a href="https://www.instagram.com/szladicsp/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+            </ul>     
+            </div>
+    </div>
+    <div class="container" id="scrollspyrolam">
+        <div class="row">
+         <div class="col-lg-3">
+             <h1 class="verticalcenter text-center" id="rolam1"  >Rólam</h1>
+             
+             
+         </div>
+            <div class="col-lg-9 text-center" id="rolam">
+        <h5>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.</h5>
+        </div>
+            
+        </div>
         
         
-    </body>
+         
+        
+    </div>
+    <div class="container" id="scrollspytanulmanyok">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="verticalcenter text-center">Tanulmányok</h1>
+            </div>
+            <div class="col-lg-9">
+                <table class="table">
+                 <tbody>
+                    <tr>
+                      <td>
+                          2018. február-2018. augusztus
+                        </td>
+                        <td>
+                        Java EE programozás
+                        </td>
+                        <td>
+                        Ruander Oktatóközpont 
+                        </td>
+                     </tr>
+                        <tr>
+                            <td>2018. február-2018. augusztus</td> 
+                            
+                            <td>Java SE programozás</td>
+                            <td>Ruander Oktatóközpont</td> 
+                        
+                     </tr>
+                     <tr>
+                     <tr>
+                         <td>2017. október-2017. december</td>
+                         <td>Programozás alapjai</td>
+                         <td>Ruander Oktatóközpont </td>
+                     
+                     </tr>  
+                     <tr>
+                         <td>2011. szeptember - 2014. január</td>
+                         <td>Testnevelő-győgytestnevelő</td>
+                         <td>Semmelweis Egyetem Testnevelési és Sporttudományi kar</td> 
+                         
+                     
+                     </tr>   
+                     <tr>
+                         <td>2008. szeptember - 2011. június </td> 
+                         <td>Testnevelő-edző</td>
+                         <td>Semmelweis Egyetem Testnevelési és Sporttudományi kar </td>
+                     
+                     </tr> 
+                     <tr>
+                         <td>2000. szeptember - 2008. június </td>
+                         <td>Érettségi</td>
+                         <td>Fráter György Katolikus Gimnázium, Miskolc </td>
+                         
+                </tbody>
+                </table>
+        </div>    
+            </div>
+        
+        
+        
+    </div>
+    
+     <div class="container" id="scrollspyszakmaikeszsegeim">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="verticalcenter text-center">Szakmai készségeim</h1>
+            </div>
+            <div class="col-lg-9">
+            <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+                <!--  <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, d quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt.
+            </p> -->
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand java"></span><em>Java</em></li>
+                  <li><span class="bar-expand HTML5 "></span><em>HTML5</em></li>
+						<li><span class="bar-expand CSS3"></span><em>CSS3</em></li>
+						<li><span class="bar-expand javascript"></span><em>Javascript</em></li>
+						<li><span class="bar-expand git"></span><em>GIT</em></li>
+                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+            </div>    
+        </div>    
+    <footer class="container-fluid text-center" id="scrollspyelerhetosegem">
+        <h4>Elérhetőségem</h4><br>
+            
+       <h6><strong>Tel: 06 70 606 5994</strong><br>
+        <a id="email" href="mailto:szladicsp@gmail.com" target="_top"><strong>szladicsp@gmail.com</strong> </a></h6>
+        <h7>Budapest, Váci út 170/b</h7>
+        <!--<div class="container"> -->
+        
+      
+        <ul class="social-links list-unstyled list-inline text-center">
+               <li class="list-inline-item"><a href="https://www.facebook.com/peter.szladics" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+               <li class="list-inline-item"><a href="https://www.linkedin.com/in/p%C3%A9ter-szladics-238933164/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+               <li class="list-inline-item"><a href="https://www.instagram.com/szladicsp/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+            </ul>
+        <!-- </div> -->
+     </footer>
+    </div>
+</body>
+
 </html>

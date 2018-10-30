@@ -1,0 +1,222 @@
+
+body{
+    color: aliceblue;
+    height: 100%;
+    position: relative;
+    
+}
+h1{
+  font-family: 'Merriweather', serif; 
+
+}
+h4{
+    font-family: 'Lora', serif;
+}
+h5{
+    font-family: 'Lora', serif;
+}
+nav li{
+    font-family: 'Lora', serif;
+
+}
+
+.bg{
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641_960_720.jpg');
+    background-position:center;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+li{
+    text-align: center;
+    
+}
+#nev{
+    margin: 2rem;
+    font-size: 4rem;
+}
+.job{
+    margin: 2rem;
+}
+
+@media (max-width:575.98px){
+   #nev{
+    margin-top: 2rem;
+    font-size: 2.2rem;
+
+}
+.job{
+    margin: 1rem; 
+}
+
+    
+    
+}
+
+.social-links a{
+    color: aliceblue;
+}
+.social-links a:hover{
+    color: darkblue;
+    transition: 1s;
+}
+
+/* vertical center */
+.verticalcenter{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+.bars .skills {
+  	margin-top: 36px;
+   list-style: none;
+}
+.bars li {
+   position: relative;
+  	margin-bottom: 60px;
+  	background: #ccc;
+  	height: 42px;
+  	border-radius: 3px;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+	top: -36px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #313131;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+.java {
+  	width: 60%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+.HTML5 {
+  	width: 55%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.CSS3 {
+  	width: 50%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.javascript {
+  	width: 60%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.git {
+  	width: 80%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.jquery {
+  	width: 50%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
+}
+
+/*@-moz-keyframes photoshop {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes illustrator {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-moz-keyframes wordpress {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+@-webkit-keyframes photoshop {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes illustrator {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes wordpress {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}*/
+
+
+/* rólam*/
+
+h5{
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    line-height: 2.0;
+}
+@media screen and (max-width: 992px) {
+  #rolam1 {
+    padding-top: 2rem;
+  }
+}
+/* footer*/
+
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:#313131;
+    width: 100vw;
+}
+
