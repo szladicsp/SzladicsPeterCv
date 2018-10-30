@@ -3,10 +3,10 @@ body{
     color: aliceblue;
     height: 100%;
     position: relative;
-    
+
 }
 h1{
-  font-family: 'Merriweather', serif; 
+    font-family: 'Merriweather', serif; 
 
 }
 h4{
@@ -29,12 +29,12 @@ nav li{
     height: 100vh;
     text-align: center;
     color: aliceblue;
-    
+
 }
 
 li{
     text-align: center;
-    
+
 }
 #nev{
     margin: 2rem;
@@ -45,17 +45,17 @@ li{
 }
 
 @media (max-width:575.98px){
-   #nev{
-    margin-top: 2rem;
-    font-size: 2.2rem;
+    #nev{
+        margin-top: 2rem;
+        font-size: 2.2rem;
 
-}
-.job{
-    margin: 1rem; 
-}
+    }
+    .job{
+        margin: 1rem; 
+    }
 
-    
-    
+
+
 }
 
 .social-links a{
@@ -68,11 +68,11 @@ li{
 
 /* vertical center */
 .verticalcenter{
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 /*----------------------------------------------*/
@@ -80,134 +80,157 @@ li{
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
-	float: left;
-	padding: 0;
-	text-align: left;
+    width: 95%;
+    float: left;
+    padding: 0;
+    text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
-   list-style: none;
+    margin-top: 36px;
+    list-style: none;
 }
 .bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
+    position: relative;
+    margin-bottom: 60px;
+    background: #ccc;
+    height: 42px;
+    border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
-   position: relative;
-	top: -36px;
+    font: 15px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    top: -36px;
 }
 .bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
 
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+    margin: 0;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
 }
 
 .java {
-  	width: 50%;
-  	-moz-animation: java 2s ease;
-  	-webkit-animation: java 2s ease;
+    width: 50%;
+    -moz-animation: java 2s ease;
+    -webkit-animation: java 2s ease;
 }
 .sql {
-  	width: 40%;
-  	-moz-animation: java 2s ease;
-  	-webkit-animation: java 2s ease;
+    width: 40%;
+    -moz-animation: sql 2s ease;
+    -webkit-animation: sql 2s ease;
 }
 .HTML5 {
-  	width: 60%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+    width: 60%;
+    -moz-animation: HTML5 2s ease;
+    -webkit-animation: HTML5 2s ease;
 }
 .CSS3 {
-  	width: 60%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+    width: 60%;
+    -moz-animation: CSS3 2s ease;
+    -webkit-animation: CSS3 2s ease;
 }
 .bootstrap {
-  	width: 60%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+    width: 60%;
+    -moz-animation: bootstrap 2s ease;
+    -webkit-animation: bootstrap 2s ease;
 }
 .javascript {
-  	width: 30%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+    width: 30%;
+    -moz-animation: javascript 2s ease;
+    -webkit-animation: javascript 2s ease;
 }
 .git {
-  	width: 60%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+    width: 60%;
+    -moz-animation: git 2s ease;
+    -webkit-animation: git 2s ease;
 }
 .jquery {
-  	width: 30%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+    width: 30%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+/*Mozilla*/
+@-moz-keyframes java {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+}
+@-moz-keyframes sql {
+    0%   { width: 0px;  }
+    100% { width: 40%;  }
 }
 
-/*@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+@-moz-keyframes HTML5 {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+@-moz-keyframes CSS3 {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-moz-keyframes bootstrap {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
 }
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-moz-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 30%;  }
 }
 @-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+    0%   { width: 0px;  }
+    100% { width: 30%;  }
+}
+@-moz-keyframes git {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+
+/*Chrome*/
+
+@-webkit-keyframes java {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+@-webkit-keyframes sql {
+    0%   { width: 0px;  }
+    100% { width: 40%;  }
 }
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+
+@-webkit-keyframes HTML5 {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
 }
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
+@-webkit-keyframes CSS3 {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
 }
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-webkit-keyframes bootstrap {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+}
+@-webkit-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 30%;  }
 }
 @-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}*/
+    0%   { width: 0px;  }
+    100% { width: 30%;  }
+}
+@-webkit-keyframes git {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+}
+
+
 
 
 /* rólam*/
@@ -218,9 +241,9 @@ h5{
     line-height: 2.0;
 }
 @media screen and (max-width: 992px) {
-  #rolam1 {
-    padding-top: 2rem;
-  }
+    #rolam1 {
+        padding-top: 2rem;
+    }
 }
 /* footer*/
 
