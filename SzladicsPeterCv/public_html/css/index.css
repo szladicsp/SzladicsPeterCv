@@ -118,32 +118,42 @@ li{
 }
 
 .java {
-  	width: 60%;
+  	width: 50%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+.sql {
+  	width: 40%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .HTML5 {
-  	width: 55%;
+  	width: 60%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .CSS3 {
-  	width: 50%;
+  	width: 60%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.bootstrap {
+  	width: 60%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .javascript {
-  	width: 60%;
+  	width: 30%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .git {
-  	width: 80%;
+  	width: 60%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 30%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
