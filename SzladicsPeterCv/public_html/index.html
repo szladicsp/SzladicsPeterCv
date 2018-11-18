@@ -16,7 +16,7 @@ and open the template in the editor.
         <!-- jQuery -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <!-- Complete css -->
+        <!-- Complete  boostrap css -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
         <!--Complete javascript -->
@@ -43,6 +43,18 @@ and open the template in the editor.
 
         <!--index.js -->
         <script src="js/index.js"></script>
+
+        <!-- reveal animation css -->
+        <link rel="stylesheet" href="css/reveal.css">
+
+
+        <!-- min animate.css-->
+        <!-- <link rel="stylesheet" href="animate.min.css"> -->
+        
+        <!-- http://jackonthe.net/css3animateit/ -->
+        <link rel="stylesheet" href="css/animations-ie-fix.css">
+        <link rel="stylesheet" href="css/animations.css">
+        <script src="js/css3-animate-it.js"></script>
     </head> 
 
 
@@ -74,28 +86,32 @@ and open the template in the editor.
         <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
             <!-- Header -->
-            <div class="container-fluid bg row header d-flex align-items-center">
-                <div class="col-12">  
-                    <h1 id="nev">Szladics Péter</h1>
-                    <h4 class="job">Junior java programozó</h4>
-                    <h4 class="job">Junior frontend fejlesztő</h4>
-                    <h4 class="job">Testnevelő-gyógytestnevelő</h4> 
-                    <ul class="social-links list-unstyled list-inline text-center">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/peter.szladics" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/p%C3%A9ter-szladics-238933164/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/szladicsp/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
-                    </ul>     
+            <div class="container-fluid bg row header d-flex align-items-center scrollme">
+                <div class="col-12"> 
+                    <div class="animatedParent">
+                        <h1 class="animated fadeInLeftBig" id="nev">Szladics Péter</h1>
+                        <h4 class="job animated fadeInDownShort delay-1000">Junior java programozó</h4>
+                        <h4 class="job animated fadeInRightBig delay-2000">Junior frontend fejlesztő</h4>
+                        <h4 class="job animated fadeInUp delay-3000">Testnevelő-gyógytestnevelő</h4> 
+                        <ul class="social-links list-unstyled list-inline text-center">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/peter.szladics" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/p%C3%A9ter-szladics-238933164/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/szladicsp/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+                        </ul>  
+                    </div>
                 </div>
             </div>
-            <div class="container" id="scrollspyrolam">
-                <div class="row">
+            <div class="container animatedParent" id="scrollspyrolam">
+                <div class="row animatedParent">
                     <div class="col-lg-3">
                         <h1 class="verticalcenter text-center" id="rolam1"  >Rólam</h1>
 
 
                     </div>
-                    <div class="col-lg-9 text-center" id="rolam">
-                        <h5>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.</h5>
+                    <div class="col-lg-9 text-center animatedParent" id="rolam">
+
+                        <h5 class="animated bounceInRight">A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.</h5>
+
                     </div>
 
                 </div>
@@ -104,8 +120,8 @@ and open the template in the editor.
 
 
             </div>
-            <div class="container" id="scrollspytanulmanyok">
-                <div class="row">
+            <div class="container animatedParent" id="scrollspytanulmanyok">
+                <div class="row animated bounceInRight">
                     <div class="col-lg-3">
                         <h1 class="verticalcenter text-center">Tanulmányok</h1>
                     </div>
@@ -183,7 +199,7 @@ and open the template in the editor.
                                     <li><span class="bar-expand sql"></span><em>SQL</em></li>
                                     <li><span class="bar-expand HTML5 "></span><em>HTML5</em></li>
                                     <li><span class="bar-expand CSS3"></span><em>CSS3</em></li>
-                                    <li><span class="bar-expand bootstrap"></span><em>Bootsrtap 4</em></li>
+                                    <li><span class="bar-expand bootstrap"></span><em>Bootstrap 4</em></li>
                                     <li><span class="bar-expand javascript"></span><em>Javascript</em></li>
                                     <li><span class="bar-expand jquery"></span>
                                         <em>jQuery</em></li>
@@ -215,6 +231,13 @@ and open the template in the editor.
                 <!-- </div> -->
             </footer>
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                2
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                3
+                crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/css3-animate-it.js"></script>
     </body>
 
 </html>
