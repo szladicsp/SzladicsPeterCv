@@ -238,8 +238,13 @@ li{
 h5{
     padding-top: 2rem ;
     padding-bottom: 2rem;
-    line-height: 2.0;
+    line-height: 2.0; 
+    /*animation-duration: 1s;*/
+/*    animation-delay: 1s;
+    animation-iteration-count: 1;*/
+
 }
+
 @media screen and (max-width: 992px) {
     #rolam1 {
         padding-top: 2rem;
